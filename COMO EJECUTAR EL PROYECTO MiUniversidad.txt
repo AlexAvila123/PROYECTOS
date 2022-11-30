@@ -1,0 +1,21 @@
+REQUISITOS:	Instalar PYTHON3 y cualquier IDE
+
+
+DESCOMPRIMIR EL PROYECTO EN LA UNIDAD C
+
+EJECUTAR EL SIGUIENTE COMANDO:		python manage.py runserver
+
+para ingresar al panel de administracioningresamos al siguiente enlace: http://127.0.0.1:8000/admin/
+
+
+
+
+DATO ADICIONAL: USUARIO DE LA BASE DE DATOS: poseidon CLAVE: poseidon
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'MiUniversidad.db',
+       # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
+ 
